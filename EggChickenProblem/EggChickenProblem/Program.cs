@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace EggChickenProblem
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            var chicken1 = new Chicken();
+            var egg = chicken1.Lay();
+
+            var newbird = new NewBird();
+            var eggnewbird = newbird.Lay();
+
+            //2 especies diferentes
+            var childChicken = egg.Chocar();
+            var childnewbird = eggnewbird.Chocar();
+
+            //Exception
+            var childChicken1 = egg.Chocar();
+
+            Console.ReadKey();
         }
     }
 }
