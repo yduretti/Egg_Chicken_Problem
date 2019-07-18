@@ -1,5 +1,6 @@
 # Egg_Chicken_Problem
 
+Solução implementada em c#.
 
 - Chicken implements the Bird lnterface
 - A Chicken lays an egg that will hatch into a new Chicken
